@@ -7,13 +7,12 @@ body {
 	justify-content: center;
 background-color: rgb(240, 240, 179);
 }
-
 .login {
 	grid-column-start: 2;
 	grid-column-end: 3;
 	grid-row-start: 2;
 	grid-row-end: 3;
-	background-color: rgb(248, 246, 140);
+	background-color: rgb(253, 250, 84);
 	width: 100%;
 	display: flex;
 	flex-direction: column;
@@ -24,7 +23,7 @@ border-radius: 8px;
 }
 .title {
 	font-size: 2.5em;
-	height: 20%;
+height: 15%;
 }
 .button {
 	height: 15%;
@@ -33,11 +32,6 @@ border-radius: 8px;
 	margin: 0;
 	background-color: #d83030;
 border: none;
-border-radius: 4px;
+border-radius: 8px;
 color: White;
-}
-
-.text {
-	height: 20%;
-;
 }
