@@ -1,0 +1,47 @@
+body {
+	margin: 0;
+	border: 0;
+	display: grid;
+	grid-template-columns: 1fr 2fr 1fr;
+	grid-template-rows: 250px 400px 250px;
+	justify-content: center;
+}
+
+.login {
+	grid-column-start: 2;
+	grid-column-end: 3;
+	grid-row-start: 2;
+	grid-row-end: 3;
+	background-color: rgb(140, 141, 141);
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.title {
+	font-size: 2.5em;
+	height: 20%;
+}
+.button {
+	height: 15%;
+	width: 50%;
+	padding: 0;
+	margin: 0;
+	background-color: #8c8d8d;
+}
+
+.input {
+	height: 15%;
+	width: 48.5%;
+	padding: 0;
+	margin: 0;
+	background-color: #8c8d8d;
+	font-size: 120%;
+}
+
+.text {
+	height: 20%;
+	display: flexbox;
+	justify-content: center;
+}
